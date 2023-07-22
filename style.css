@@ -1,0 +1,12 @@
+img {
+    width: min(400px, 50%);
+}
+
+.outer-container {
+    display: flex;
+}
+
+form {
+    align-self: center;
+}
+
