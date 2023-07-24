@@ -1,13 +1,55 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+}
+
 img {
-    width: 75vh
+    width: 75vh;
+    min-height: 100vh;
 }
 
 .outer-container {
     display: flex;
-    min-height: 100vh;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+}
+
+.logo-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Norse Bold', fantasy;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content1::after, .content2::after, .content3::before {
+    content: '\a';
+    white-space: pre;
+}
+
+.italics {
+    font-style: italic;
 }
 
 form {
     align-self: center;
 }
 
+label {
+    display: inline-block;
+}
