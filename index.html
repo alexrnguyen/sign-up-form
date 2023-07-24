@@ -9,8 +9,11 @@
 <body>
     <div class="outer-container">
         <div class="img-container">
-            <div class="logo-text">Odin Newsletter</div>
-            <img src="./img/background.jpg" alt="Man climbing cliff">
+            <div class="logo-container">
+                <img src="./img/odin-logo.png" alt="Odin Logo" class="logo">
+                <div class="logo-text">Odin Newsletter</div>
+            </div>
+            <img src="./img/background.jpg" alt="Man climbing cliff" class="background">
         </div>
         <div class="info-container">
             <p>
@@ -21,6 +24,7 @@
                 <span class="content3">You <span class="italics">know</span> you want to.</span>
             </p>
             <form action="">
+                <legend>Let's do this!</legend>
                 <fieldset>
                     <div>
                         <label for="">First Name</label>
@@ -51,7 +55,10 @@
                         <input type="text">
                     </div>
                 </fieldset>
+                <button type="submit">Create Account</button>
             </form>
+
+            <div>Already have an account? <a href="" class="log-in">Log in</a></div>
         </div>
         
     </div>
