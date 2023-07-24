@@ -1,9 +1,10 @@
 img {
-    width: min(400px, 50%);
+    width: 75vh
 }
 
 .outer-container {
     display: flex;
+    min-height: 100vh;
 }
 
 form {
