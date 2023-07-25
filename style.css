@@ -89,7 +89,7 @@ fieldset {
     padding: 20px 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 8rem;
+    gap: 4vw;
 }
 
 label {
@@ -104,6 +104,13 @@ label {
 .left, .right {
     float: left;
     
+}
+
+input {
+    width: 12vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 input:focus {
