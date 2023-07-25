@@ -1,6 +1,5 @@
 # sign-up-form
-
-TOP Sign-up Form
+A basic sign up form created to practice form basics and form validation
 
 ## Acknowledgements
 
